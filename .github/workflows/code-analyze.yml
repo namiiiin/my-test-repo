@@ -1,7 +1,7 @@
-name: Super-Linter
-  on: push
-  jobs:
-    superlinter:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: super-linter/super-linter@v7.3.0
+name: SuperLinter
+on: push
+jobs:
+  superlinter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: super-linter/super-linter@v7.3.0
