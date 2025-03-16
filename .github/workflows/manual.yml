@@ -5,7 +5,8 @@ on:
       greeting:
         type: string
         default: Hello
-        required: truedescription: A cheerful world
+        required: true
+        description: A cheerful world
 jobs:
   run:
     runs-on: ubuntu-latest
